@@ -1,0 +1,104 @@
+header {
+    background-color: #1f7a8c;
+}
+
+.logo {
+    width: 80px;
+}
+
+nav a {
+    text-align: center;
+    background-color: #1f7a8c;
+    color: #E1E5F2;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    background-color: #769aa181;
+    color: white;
+}
+
+.home-title {
+    color: black;
+}
+
+h4 {
+    color: black;
+}
+
+body {
+    background-color: #E1E5F2;
+}
+
+.icon {
+    width: 80px;
+}
+
+#content { /* This is a div id tag */
+    max-width: 1600px ; /*Sets the maximum width of the div id to 1600px */
+    margin: 0 auto;
+}
+
+#background {
+    height: 725px;
+    background-color: #BFDBF7;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+#hero-msg h1 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+.msg {
+    background-color: #BFDBF7;
+}
+
+.msg h2 {
+    color: black;
+}
+
+.msg p {
+    color: black;
+}
+
+.book, .join {
+    background-color: #E1E5F2;
+    color: black;
+    text-decoration: none;
+}
+
+.book:hover, .join:hover {
+    background-color: #d1d7ec;
+    color: black;
+}
+
+footer {
+    background-color: #022B3A;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+footer p{
+    font-size: 1.2em;
+}
