@@ -2,48 +2,67 @@ nav {
   text-align: center;
   background-color: steelblue;
   color: white;
-  padding: 10px;
+  padding: 25px;
   }
 
 a:hover {
   background-color: white;
   color: steelblue;
   }
+
 a {
   font-size: 1.5em;
   color: white;
   margin: 40px;
+  padding: 25px;
   }
 
 h1 {
+  margin: 50px 0;
   text-align: center;
   color: steelblue;
-  }   
+  } 
+
 img {
   width: 80%;
+  border: 4px solid steelblue;
   display: block;
   margin: 0 auto;
   }
-  main p {
+
+main p {
     width: 80%;
     margin: 50px auto;
-  }
+}
+
+body {
+  margin: 0;
+}
+
+footer {
+  background-color: steelblue;
+  color: white;
+}
+
 footer p {
   font-size: 20px;
+  padding: 25px;
   margin: 20px auto;
   text-align: center;
   background-color: steelblue;
   color: white;
-  color: white;
 }
+
 .main-para {
   font-size: 1.5em;
   line-height: 1.5em;
 }
+
 #active {
   background-color: white;
   color: steelblue;
 }
+
 /* {
   border: 2px solid blue;
 }
