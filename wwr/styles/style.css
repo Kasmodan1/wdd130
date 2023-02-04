@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Cinzel+Decorative&family=Libre+Baskerville:ital@1&family=Open+Sans&family=Playfair+Display:ital,wght@1,900&display=swap');
+
 header {
     background-color: #1f7a8c;
 }
@@ -6,12 +8,17 @@ header {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 nav a {
     text-align: center;
     background-color: #1f7a8c;
     color: #E1E5F2;
     text-decoration: none;
     font-size: 1.2em;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -20,7 +27,14 @@ nav a:hover {
 }
 
 .home-title {
+    font-family: 'Playfair Display', 'Libre Baskerville', 'Antic Slab', 'serif';
+    font-size: 2em;
     color: black;
+    margin-top: 10px;
+}
+
+h2 {
+    margin: 0;
 }
 
 h4 {
@@ -28,11 +42,16 @@ h4 {
 }
 
 body {
+    font-family: 'Cinzel Decorative', 'Antic Slab',  'serif';
+    font-size: 22px;
     background-color: #E1E5F2;
+    margin: 0;
+    padding: 0;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #content { /* This is a div id tag */
@@ -61,22 +80,43 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 .msg {
     background-color: #BFDBF7;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
+    font-family: 'Libre Baskerville', 'Antic Slab', 'serif';
     color: black;
 }
 
 .msg p {
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #BFDBF7;
 }
 
 .book, .join {
     background-color: #E1E5F2;
     color: black;
+    font-size: 18px;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -87,6 +127,12 @@ main section {
 footer {
     background-color: #022B3A;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 footer a {
