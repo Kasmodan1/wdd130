@@ -6,6 +6,7 @@
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   grid-gap: 20px;
+  width: 550px;
 }
 .red1 { 
   width: 100%; 
@@ -72,7 +73,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 80px;
-
+  width: 800px;
 }
 .red3 {
   width: 100%; 
@@ -100,6 +101,7 @@
 .content4 {
   /* This is the parent of the activity 4 boxes. */
   height: 400px;
+  width: 600px;
   display: grid;
   grid-template-columns: 1ft 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -136,6 +138,7 @@
 .content5 {
   /* This is the parent of the activity 5 boxes. */
   height: 400px;
+  width: 700px;
 }
 .red5 { 
   width: 100%; 
