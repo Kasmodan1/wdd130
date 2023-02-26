@@ -146,6 +146,7 @@ nav a:hover {
   background-color: #ccc;
   line-height: 3em;
 }
+
 .sm-page2 {
   grid-area: page2;
   background-color: #ccc;
@@ -155,6 +156,13 @@ nav a:hover {
   grid-area: page3;
   background-color: #ccc;
   line-height: 3em;
+}
+
+.image{
+  width:400px; /*width of your image*/
+  height:400px; /*height of your image*/
+  justify-self: center;
+  align-self: center;
 }
 
 .top {
