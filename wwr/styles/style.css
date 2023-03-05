@@ -240,7 +240,6 @@ footer p {
 .river-grid {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-column: 1fr 1fr 1fr;
 }
 
 .salmon-card, .desolation-card, .grandcanyon-card {
@@ -254,11 +253,6 @@ footer p {
     box-shadow: 5px 5px 10px #6f7364;
     float: left;
     /* border: 2px solid blueviolet */
-}
-
-.river-name, .river-description {
-    grid-column: 2/4;
-    /* border: 2px solid red; */
 }
 
 .river-name {
