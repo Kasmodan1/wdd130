@@ -202,7 +202,7 @@ footer {
     background-color: #022B3A;
     color: white;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -229,6 +229,79 @@ footer p {
 /* {
   border: 2px solid blue;
 }
+
+/* River css section */
+
+#river-content { /* This is a div id tag */
+    max-width: 1600px ; /*Sets the maximum width of the div id to 1600px */
+    margin: 0 auto;
+}
+
+.river-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column: 1fr 1fr 1fr 1fr;
+}
+
+.salmon-card, .desolation-card, .grandcanyon-card {
+    margin: 20px 0;
+}
+
+.river-img {
+    width: 40%;
+    border: 7px solid #1f7a8c;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    float: left;
+    /* border: 2px solid blueviolet */
+}
+
+.river-name, .river-description {
+    grid-column: 2/4;
+    /* border: 2px solid red; */
+}
+
+.river-name {
+    text-align: center;
+}
+
+.river-description {
+    font-size: larger;
+    font-family: 'Antic Slab', 'serif';
+}
+
+#salmon-background, #grandcanyon-background {
+    background-color: #BFDBF7;
+    border: 1px solid #9fbfce;
+}
+
+#desolation-background {
+    background-color: #6abecf;
+}
+
+.river-img:hover {
+    transform: scale(1.3);
+}
+
+.solmon-card {
+    grid-row: 1/2;
+}
+
+.desolation-card {
+    grid-row: 2/3;
+}
+
+.grandcanyon-card {
+    grid-row: 3/4;
+}
+
+
+
+
+
+
+
+
 
 /*  Media section */
 
