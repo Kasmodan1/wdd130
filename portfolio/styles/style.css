@@ -1,0 +1,17 @@
+/* #facebook, #twitter, #pinterest, #instagram, #linkedin {
+  width: 150px;
+  height: 150px;
+  display: block;
+  border: none;
+  float: left;
+  margin: 1px;
+}
+
+#facebook {
+  background: url(../images/smicons.jpg)
+}
+
+/* facebook {
+  background: url(../images/all-new2.png) -480px -50px;
+}
+
